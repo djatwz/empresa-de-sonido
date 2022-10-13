@@ -1,0 +1,141 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 750px;
+    background-color: black;
+    
+}
+
+.footer-content h2{
+    font-size: 3.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    color: #84F14E;
+}
+
+.footer-content h5{
+    font-size: 2.0em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.form {
+    background-color: #fff;
+    width: 80%;
+    margin-left: 38px;
+    border-radius: 1em;
+    padding: 2.5em 1.5em;
+}
+.sotial-network-w {
+    justify-content: space-around;
+    
+    font-size: 28px;
+    padding: 10px;
+    display: flex;
+}
+
+.sotial-network-f {
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 28px;
+    display: flex;
+}
+
+.sotial-network-i {
+    justify-content: center;
+    margin-bottom: 32px;
+    font-size: 28px;
+    padding: 10px;
+    display: flex;
+    
+}
+
+.form__container {
+    width: 100%;
+    display: grid;
+    gap: 0.5em;
+    grid-auto-columns: 100%;
+}
+
+.form__tittle {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+
+.form__input--message {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em;
+}
+
+.form__cta {
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #291;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;  
+}
+
+@media(min-width:950px){
+
+.footer {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 500px;
+        background-color: black;
+        
+    }
+.form {
+        padding: 3.5 1.5em;
+        width: 50%;
+        margin: 38px;
+        margin-top: -380px;
+    }
+.sotial-network-w {
+    justify-content: space-around;
+    padding: 30px;
+    margin-top: 40px;
+    margin-left: 670px;
+    display: flex;
+}
+
+.sotial-network-f {
+    justify-content: space-around;
+    margin-left: 670px;
+    padding: 30px;
+    display: flex;
+}
+
+.sotial-network-i {
+    justify-content: center;
+    margin-bottom: 32px;
+    margin-left: 670px;
+    padding: 30px;
+    display: flex;
+    
+}
+
+.form__input {
+    font-family: inherit;
+    font-size:  1rem;
+    padding: .8em 1em;
+}
+
+
+    }
+
+
